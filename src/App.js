@@ -1,6 +1,7 @@
 import ExpenseItem from "./components/Expenses/ExpenseItems";
 import Card from "./components/UI/Card";
 import "./App.css";
+import NewExpense from './components/newExpenses/newExpense'
 
 function App() {
   const expense = [
@@ -26,7 +27,7 @@ function App() {
   ];
   return (
     <Card className="expenses">
-      <h1>Hello, I am Samin</h1>
+      <NewExpense/>
       <ExpenseItem
         title={expense[0].title}
         date={expense[0].date}
