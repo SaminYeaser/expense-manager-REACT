@@ -4,10 +4,8 @@ import ExpenseForm from './expenseForm'
 
 const NewExpense =()=>{
     return(
-        <div className='new-expense'>
-            <form action="">
-                <ExpenseForm/>
-            </form>
+        <div className='new-expense'> 
+            <ExpenseForm/>
         </div>
     )
 };
